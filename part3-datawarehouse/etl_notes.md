@@ -9,7 +9,7 @@ Solution:
 All dates were converted into a single standard format: YYYY-MM-DD.
 A separate date dimension table (dim_date) was created to store date information like day, month, and year.
 
----
+
 
 ### 2. Fixing Category Name Differences
 Problem:
@@ -21,7 +21,7 @@ All category names were standardised to:
 Electronics, Clothing, and Groceries.
 This makes reporting and grouping easier.
 
----
+
 
 ### 3. Calculating Total Sales
 Problem:

@@ -1,0 +1,73 @@
+[
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f1" },
+    "product_id": "ELEC-001",
+    "category": "Electronics",
+    "name": "Samsung 55-inch 4K Smart TV",
+    "brand": "Samsung",
+    "price": 52999,
+    "currency": "INR",
+    "stock": 30,
+    "specifications": {
+      "display": "55 inch QLED",
+      "resolution": "3840x2160",
+      "voltage": "220V",
+      "warranty_years": 2,
+      "energy_rating": "5 Star"
+    },
+    "features": ["HDR10+", "Dolby Atmos", "SmartThings", "Voice Control"],
+    "in_stock": true,
+    "added_on": { "$date": "2024-03-01T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f2" },
+    "product_id": "CLTH-001",
+    "category": "Clothing",
+    "name": "Men's Slim Fit Formal Shirt",
+    "brand": "Arrow",
+    "price": 1499,
+    "currency": "INR",
+    "stock": 200,
+    "specifications": {
+      "material": "60% Cotton, 40% Polyester",
+      "fit": "Slim Fit",
+      "care_instructions": ["Machine wash cold", "Do not bleach", "Tumble dry low"]
+    },
+    "available_variants": [
+      { "size": "S", "color": "White", "sku": "ARW-SFS-S-WHT" },
+      { "size": "M", "color": "White", "sku": "ARW-SFS-M-WHT" },
+      { "size": "L", "color": "Blue", "sku": "ARW-SFS-L-BLU" },
+      { "size": "XL", "color": "Blue", "sku": "ARW-SFS-XL-BLU" }
+    ],
+    "in_stock": true,
+    "added_on": { "$date": "2024-04-15T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f3" },
+    "product_id": "GROC-001",
+    "category": "Groceries",
+    "name": "Organic Whole Wheat Flour",
+    "brand": "Aashirvaad",
+    "price": 299,
+    "currency": "INR",
+    "stock": 500,
+    "specifications": {
+      "weight_kg": 5,
+      "expiry_date": { "$date": "2024-11-30T00:00:00Z" },
+      "manufactured_on": { "$date": "2024-05-01T00:00:00Z" },
+      "storage_instructions": "Store in a cool, dry place"
+    },
+    "nutritional_info": {
+      "per_100g": {
+        "calories_kcal": 340,
+        "protein_g": 12,
+        "carbohydrates_g": 70,
+        "fat_g": 2,
+        "fibre_g": 11
+      }
+    },
+    "certifications": ["FSSAI Approved", "Organic India Certified", "Non-GMO"],
+    "in_stock": true,
+    "added_on": { "$date": "2024-05-10T00:00:00Z" }
+  }
+]
